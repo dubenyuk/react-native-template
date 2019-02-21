@@ -1,0 +1,33 @@
+{
+  "name": "poly",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "devDependencies": {
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "react-native-scripts": "^1.6.0"
+  },
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "generate-image-cache": "node app/utils/generateImagesUrl.js"
+  },
+  "dependencies": {
+    "expo": "31.0.4",
+    "moment": "2.18.1",
+    "prop-types": "15.6.2",
+    "ramda": "0.25.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.1.tar.gz",
+    "react-native-modal": "4.1.1",
+    "react-navigation": "1.0.0-beta.15",
+    "react-redux": "5.0.6",
+    "recompose": "0.26.0",
+    "redux": "3.7.2",
+    "redux-actions": "2.2.1"
+  }
+}
